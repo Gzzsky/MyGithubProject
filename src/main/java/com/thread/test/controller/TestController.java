@@ -23,6 +23,7 @@ public class TestController {
   @ResponseBody
   public Account getAccount(){
     System.out.println("123");
+    System.out.println("123456");
     return accountService.findByUsername("zs");
   }
 }
